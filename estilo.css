@@ -1,0 +1,396 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style:none;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: beige;
+    height: 100px;
+}
+
+body{
+    background-color: beige;
+    position: relative;
+    padding-bottom: 110px;
+    /* background-image: url(fotos/cook-g40e2ae134_1920.jpg); */
+}
+
+nav p{
+    display: inline;
+    padding-left: 150px;
+    vertical-align: middle;
+    position: absolute;
+    padding-top: 40px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-transform: uppercase;
+}
+
+.imagen{
+    position: absolute;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+nav div img{
+    height: 85px;
+    width: 85px;
+}
+
+nav ul{
+    float: right;
+    padding: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+li a:hover {
+    background-color:darkorange;
+}
+
+main article div img{
+    width: 50%;
+    float: right;
+    height: 610px;
+    display: inline-block;
+}
+main article div p{
+    width: 50%;
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.titulo1{
+    padding-left: 250px;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.txtimg{
+    display: inline-block;
+}
+
+table{
+    width: 50%;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 10px;
+}
+
+thead{
+    border-bottom: 3px solid black;
+    background-color: green;
+    color: white;
+}
+
+.gris{
+    background-color:blanchedalmond;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+}
+
+.lasagna{
+    height: 215px;
+    width: auto;
+    float: left;
+}
+.fideos{
+    height: 215px;
+    width: auto;
+    float: left;
+}
+.raviolon{
+    height: 215px;
+    width: auto;
+    float: left;
+}
+.raviol{
+    height: 215px;
+    width: auto;
+    float: left;
+}
+.canel{
+    height: 215px;
+    width: auto;
+    float: left;
+}
+.sorrenti{
+    height: 215px;
+    width: auto;
+    float: left;
+}
+.cantidades{
+    height: 20px;
+    width: 135px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sucu{
+    font-style: italic;
+}
+.selec{
+    background-color:bisque;
+    height: 30px;
+    width: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:medium;
+}
+.formulario{
+    background:rgba(231, 233, 153, 0.6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+.formulario .edit_label{
+    display: block;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;    
+}
+.formulario .edit_label, textarea{
+    background: rgba(0, 0, 0, .7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid red;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parrafo{
+    text-align: center;
+}
+.f2{
+    width: 33%;
+    display: inline-block;
+    align-items: center;
+    height: auto;
+}
+.p1{
+    width: 33%;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.txtimg1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: rgba(238, 91, 91, 0.7);
+    border: 2px solid black;
+
+}
+.f3{
+    width: 33%;
+    height: 462px;
+    display: inline-block;
+    align-items: center;
+}
+.f4{
+    width: 34%;
+    height: 462px;
+    display: inline-block;
+    align-items: center;
+}
+.p2{
+    width: 33%;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.txtimg2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: rgba(242, 245, 95, 0.7);
+    border: 2px solid black;
+}
+.titulo2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.botonenv{
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 232, 112);
+    outline: none;
+    font-size: 16px;
+    border: none;
+    color: black;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+.botonenv:hover{
+    background-color: orange;
+}
+.botonborra{
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 232, 112);
+    outline: none;
+    font-size: 16px;
+    border: none;
+    color: black;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+.botonborra:hover{
+    background-color: orange;
+}
+.botonenv2{
+    width: 25%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 232, 112);
+    outline: none;
+    font-size: 16px;
+    border: none;
+    color: black;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+.botonenv2:hover{
+    background-color: orange;
+}
+.botonborra2{
+    width: 25%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 232, 112);
+    outline: none;
+    font-size: 16px;
+    border: none;
+    color: black;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+.botonborra2:hover{
+    background-color: orange;
+}
+  
+.gps{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(0, 0, 0, .7);
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mg, .pa, .lz{
+    width: 500px;
+    height: 500px;
+    margin-left: 57px;
+}
+.gps .art .titxt{
+    width: 100%;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    padding: 15px 0px;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+} 
+
+.copy{
+    height: auto;
+    width: 35px;
+    float: left;
+    display: inline-block;
+    margin-top: 0px 0px 0px 0px;
+
+}
+
+.imgfoot{
+    float: right;
+    display: inline-block;
+}
+.fb{
+    height: auto;
+    width: 35px;
+    padding: 0px 4px;
+
+}
+
+.ig{
+    height: auto;
+    width: 35px;
+    padding: 0px 4px;
+
+}
+
+.wpp{
+    height: auto;
+    width: 35px;
+    padding: 0px 4px;
+
+}
+
+.mail{
+    height: auto;
+    width: 35px;
+    padding: 0px 4px;
+
+}
