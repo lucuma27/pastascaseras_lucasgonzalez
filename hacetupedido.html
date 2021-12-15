@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doña Lita</title>
+    <link rel="shortcut icon" href="fotos/Logo.png">
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="imagen">
+            <img src="fotos/Logo.png" alt="Logo">
+            </div>
+            <p>Doña <span>Lita</span></p>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="hacetupedido.html">Hace tu pedido</a></li>
+                <li><a href="encontranos.html">Encontranos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Encargá tus pastas</h1>
+
+        <p class="parrafo">Antes de que encargues, te pedimos tu numero de telefono para contactarnos y dia de entrega.</p>
+        <div class="formulario">
+
+        <form action="hacetupedido.html" method="post" enctype="application/x-www-form-urlencoded">
+        <label for="telefono"> Tu telefono</label>
+        <input class="edit_label"  type="number" name="telefono" placeholder="Escribí tu numero"  required> <br> <br>
+
+        <label for="dia" > Dia de entrega</label>
+        <input class="edit_label"  type="date" name="dia" required> <br> <br>
+    </div>
+
+        <p>Elegi la pasta que queres:</p>
+        <div class="contenedor">
+            <div class="columna">
+                
+            <label>
+                <label for="Sorrentinos">Sorrentinos $250</label>
+                <input class="check" type="checkbox" name="Sorrentinos"> <br>
+                <div>
+                    <img  class="sorrenti" src="fotos/sorrentinos.jpg"><br><br><br><br><br><br><br><br><br><br>
+                    <label for="cant"> Cantidad</label><br>
+                    <input class="cantidades sorrenti" type="number" name="cant" placeholder="Por docena"><br> <br> 
+                </div>
+            </label>
+            <label>
+                <label for="Canelones">Canelones $400</label>
+                <input class="check" type="checkbox" name="Canelones"><br>
+                <img  class="canel" src="fotos/canelones.jpg"> <br>
+                <label for="cant">Cantidad</label> <br>
+                <input class="cantidades" type="number" name="cant" placeholder="Por docena"> 
+            </label>
+        </div>
+
+        <div class="columna">
+
+            <label>
+                <label for="Ravioles">Ravioles $200</label>
+                <input class="check" type="checkbox" name="Ravioles"><br>
+                <img  class="raviol" src="fotos/ravioles.jpg"><br>
+                <label for="cant">Cantidad</label> <br>
+                <input class="cantidades" type="number" name="cant" placeholder="Por plancha"> <br><br>
+            </label>  
+
+
+            <label>
+                <label for="Raviolones">Raviolones $350</label>
+                <input class="check" type="checkbox" name="Raviolones"><br>
+                <div>
+                    <img  class="raviolon" src="fotos/raviolones.jpg"> <br><br><br><br><br><br><br><br><br><br>
+                    <label for="cant">Cantidad</label> <br> 
+                    <input class="cantidades" type="number" name="cant" placeholder="Por docena">
+                </div>
+            </label>
+        </div>
+
+        <div class="columna">
+
+            <label>
+                <label for="Spaghettis">Spaghettis $360</label>
+                <input class="check" type="checkbox" name="Spaghettis"><br>
+                <img class="fideos" src="fotos/fideoslar.jpg"> <br>
+                <label for="cant">Cantidad</label> <br>
+                <input class="cantidades" type="number" name="cant" placeholder="Por kilo"><br><br>
+            </label>
+
+            <label>
+                <label for="Lasagna">Lasagna $800</label>
+                <input class="check" type="checkbox" name="Lasagna"><br>
+                <img  class="lasagna" src="fotos/Lasagna.jpg"> <br>
+                <label for="cant">Cantidad</label> <br>
+                <input class="cantidades" type="number" name="cant" placeholder="Por kilo">
+            </label>
+        </div>
+
+
+        </div>
+
+        <div class="form">
+            <div class="sucu">
+                <label for="sucursales"> Elegi tu sucursal de retiro</label>
+            </div>
+            <select class="selec" name="sucursales">
+                <option></option>
+                <option>Monte Grande</option>
+                <option>Lomas de Zamora</option>
+                <option>Palermo</option>
+            </select> <br><br>
+                    <input type="submit" class="botonenv2" name="Enviar">
+                    <input type="reset" class="botonborra2" name="Borra">
+        </div>
+        </form>
+    </main>
+
+    <footer>
+        <img class="copy" src="fotos/copy.png" alt="copy">
+         <div class=imgfoot>
+             <img class="fb" src="fotos/facebook.png" alt="fb">
+             <img class="ig" src="fotos/instagram.png" alt="ig">
+             <img class="wpp" src="fotos/whatsapp.png" alt="wpp">
+             <img class="mail" src="fotos/gmail.png" alt="mail" >
+         </div>
+     </footer>
+</body>
+</html>

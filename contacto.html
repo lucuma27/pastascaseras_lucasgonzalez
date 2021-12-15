@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doña Lita</title>
+    <link rel="shortcut icon" href="fotos/Logo.png">
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="imagen">
+            <img src="fotos/Logo.png" alt="Logo">
+            </div>
+            <p>Doña <span>Lita</span></p>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="hacetupedido.html">Hace tu pedido</a></li>
+                <li><a href="encontranos.html">Encontranos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contacto</h1>
+
+        <form class="formulario" action="#" method="post" enctype="application/x-www-form-urlencoded">
+            <label for="nombre"> Tu nombre </label>
+            <input  class="edit_label" type="text" name="nombre" placeholder="Escribí tu nombre" required> <br> <br>
+
+            <label for="apellido">Tu apellido</label>
+            <input class="edit_label"type="text" name="apellido" placeholder="Escribí tu apellido" required> <br> <br>
+
+            <label for="mail"> Tu Correo electronico</label>
+            <input class="edit_label" type="email" name="mail" placeholder="Escribí tu correo" required> <br> <br>
+
+            <label for="edad"> Tu edad</label>
+            <input class="edit_label" type="number" name="edad" placeholder="Decinos tu edad" required><br> <br>
+
+            <label for="telefono"> Tu telefono</label>
+            <input class="edit_label" type="number" name="telefono" placeholder="Escribí tu numero"> <br> <br>
+
+            <label for="archivo" class="edit_label">Adjuntanos un archivo</label>
+            <input type="file" name="archivo"> <br> <br>
+
+            <label for="mascu" class="edit_label">Genero: <br><br>
+                Hombre <input type="checkbox" name="mascu"><br> 
+                Femenino <input type="checkbox" name="gem"><br> 
+                Sin especificar <input type="checkbox" name="otro"><br> 
+            </label>
+
+            <label for="pasta fav">¡Mientras contanos cual es tu pasta favorita!</label> <br> <br>
+            <select name="pasta fav">
+                <option></option>
+                <option>Sorrentinos</option>
+                <option>Canelones</option>
+                <option>Spaghettis</option>
+                <option>Ravioles</option>
+                <option>Raviolones</option>
+                <option>Lasagna</option>
+            </select> <br> <br>
+
+            <label for="Comentario" class="edit_label"> ¿Que queres decirnos? </label>
+            <textarea class="textarea" name="Comentario" cols="30" rows="10" placeholder="Dejános tu comentario" required></textarea><br>
+            <input type="submit" class="botonenv" name="Enviar">
+            <input type="reset" class="botonborra"name="Borra">
+
+        </form>
+    </main>
+
+    <footer>
+        <img class="copy" src="fotos/copy.png" alt="copy">
+         <div class=imgfoot>
+             <img class="fb" src="fotos/facebook.png" alt="fb">
+             <img class="ig" src="fotos/instagram.png" alt="ig">
+             <img class="wpp" src="fotos/whatsapp.png" alt="wpp">
+             <img class="mail" src="fotos/gmail.png" alt="mail" >
+         </div>
+     </footer>
+</body>
+</html>
